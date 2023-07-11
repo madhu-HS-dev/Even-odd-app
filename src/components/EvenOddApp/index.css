@@ -1,0 +1,56 @@
+/* Write your CSS here */
+
+.app-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .card-container {
+    width: 400px;
+    height: 350px;
+  }
+}
+
+.count {
+  color: #0f172a;
+  font-family: 'Roboto';
+}
+
+.count-description {
+  color: #334155;
+  font-family: 'Roboto';
+}
+
+.button {
+  color: #1e293b;
+  font-family: 'Roboto';
+  border-radius: 6px;
+  border-width: 0px;
+  font-size: 12px;
+  padding: 6px;
+  width: 100px;
+  cursor: pointer;
+  outline: none;
+}
+
+.span-description {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 10px;
+}
